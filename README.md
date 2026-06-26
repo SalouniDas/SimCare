@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Ubuntu&weight=600&size=22&pause=1500&color=3B82F6&secondaryColor=FFFFFF&vCenter=true&center=true&width=800&lines=SimCare%3A+A+Simulated+Voice-Controlled+Robotic+Assistant+for+Assisted+Living+%F0%9F%A4%96%F0%9F%8E%99%EF%B8%8F;SimCare+is+an+intelligent%2C+voice-activated+assistive+robotic+system+developed+to+bridge+the+gap+between+multimodal+conversational+AI+and+autonomous+robotic+navigation." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Ubuntu&weight=600&size=22&pause=1200&color=3B82F6&secondaryColor=FFFFFF&vCenter=true&center=true&width=850&lines=SimCare%3A+Voice-Controlled+Robotics+for+Assisted+Living+%F0%9F%A4%96%F0%9F%8E%99%EF%B8%8F;Bridging+the+gap+between+multimodal+AI+and+autonomous+navigation.;An+intelligent%2C+voice-activated+assistive+robotic+system." alt="Typing SVG" />
 </p>
 # SimCare : A Simulated Voice Controlled Robotic Assistant for Assisted Living
 SimCare is a **voice-controlled assistive robot** built on **ROS 2**, **Webots**, and **OpenAI Whisper**.  
