@@ -1,0 +1,1 @@
+-e "openai-whisper\nsounddevice\nnumpy\npyttsx3\ntf-transformations" 

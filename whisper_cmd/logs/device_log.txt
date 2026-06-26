@@ -1,0 +1,16 @@
+Light switched on at Fri Jun 27 03:06:48 PM CEST 2025
+AC turned on at Fri Jun 27 03:09:14 PM CEST 2025
+TV switched on at Fri Jun 27 03:14:18 PM CEST 2025
+Radio switched on at Fri Jun 27 03:14:41 PM CEST 2025
+AC turned on at Fri Jun 27 03:21:29 PM CEST 2025
+AC turned on at Fri Jun 27 03:23:08 PM CEST 2025
+Radio switched on at Fri Jun 27 03:24:01 PM CEST 2025
+TV switched on at Fri Jun 27 04:04:55 PM CEST 2025
+Radio switched on at Fri Jun 27 04:05:23 PM CEST 2025
+TV switched on at Fri Jun 27 04:10:44 PM CEST 2025
+Light switched on at Fri Jun 27 04:42:08 PM CEST 2025
+TV switched on at Fri Jun 27 04:43:10 PM CEST 2025
+Light switched on at Mon Jun 30 07:46:50 PM CEST 2025
+TV switched on at Mon Jun 30 07:47:50 PM CEST 2025
+Radio switched on at Mon Jun 30 07:48:18 PM CEST 2025
+AC turned on at Mon Jun 30 07:48:54 PM CEST 2025
