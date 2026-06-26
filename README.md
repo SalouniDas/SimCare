@@ -1,7 +1,6 @@
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Ubuntu&weight=600&size=22&pause=1200&color=3B82F6&secondaryColor=FFFFFF&vCenter=true&center=true&width=850&lines=SimCare%3A+Voice-Controlled+Robotic+Assistance+%F0%9F%A4%96%F0%9F%8E%99%EF%B8%8F;Bridging+the+gap+between+multimodal+AI+and+autonomous+navigation.;An+intelligent%2C+voice-activated+assistive+robotic+system." alt="Typing SVG" />
 </p>
-
 SimCare isan intelligent, voice-activated assistive robotic system developed to bridge the gap between multimodal conversational AI and autonomous robotic navigation. The system allows users to issue natural spoken commands, which are processed in real-time to execute complex spatial tasks in a simulated environment.  
 It helps elderly or mobility-limited users by responding to natural voice commands to:
 - Navigate rooms
