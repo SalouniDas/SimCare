@@ -4,6 +4,8 @@
     <img src="https://readme-typing-svg.demolab.com?font=Ubuntu&weight=600&size=22&pause=1200&color=3B82F6&secondaryColor=FFFFFF&vCenter=true&center=true&width=850&lines=SimCare%3A+Voice-Controlled+Robotics+for+Assisted+Living+%F0%9F%A4%96%F0%9F%8E%99%EF%B8%8F;Bridging+the+gap+between+multimodal+AI+and+autonomous+navigation.;An+intelligent%2C+voice-activated+assistive+robotic+system." alt="Typing SVG" /> 
 </p>
 
+---
+
 ![ROS2](https://img.shields.io/badge/ROS2-Humble-22314E?logo=ros)
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04-E95420?logo=ubuntu)
