@@ -60,7 +60,7 @@ The architecture functions through two primary custom modular subsystems:
 
 ----
 
-##  Tech Stack & 📋 Prerequisites
+##  Tech Stack &  Prerequisites
 Before installing SimCare, ensure your local development machine fulfills the following environments and dependencies:
 -  **Operating System**: Ubuntu 22.04 LTS
 -  **Robotics Frameworks**: ROS2 Humble Hawksbill or newer (Desktop install recommended)
