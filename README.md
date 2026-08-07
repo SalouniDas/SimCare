@@ -29,15 +29,15 @@ It helps elderly or mobility-limited users by responding to natural voice comman
 
 ## Features
 
--   🎙️ Voice command interface\
--   🧭 Autonomous room navigation\
--   🏠 Smart environment interaction\
--   🚨 Simulated emergency alert workflow\
--   🔔 Medication reminder scenarios
+-    Voice command interface\
+-    Autonomous room navigation\
+-    Smart environment interaction\
+-    Simulated emergency alert workflow\
+-    Medication reminder scenarios
 
 ----
 
-## 🛠️System Architecture
+## System Architecture
 
 The architecture functions through two primary custom modular subsystems:
 ```text
@@ -50,8 +50,8 @@ The architecture functions through two primary custom modular subsystems:
 
 ----
 
-## 📦 Workspace Features & Logic Breakdown 
-### 🤖 Core Intelligence (whisper_node.py) 
+##  Workspace Features & Logic Breakdown 
+###  Core Intelligence (whisper_node.py) 
 - **Wake Word Logic**: Remains idle until triggered by saying "hello robot" or "hey robo".
 - **Spatial Destination Tracking**: Directs the TurtleBot3 directly to exact pre-mapped coordinates (e.g., *fridge, sofa, table, cabinet, or door*) using nav2_msgs Action Servers.
 - **Peripheral Hardware Overrides**: Translates voice queries into native subprocess shell paths to toggle physical rooms or appliances (TV, Radio, Light, AC) while generating tracking telemetry logs.
@@ -60,14 +60,14 @@ The architecture functions through two primary custom modular subsystems:
 
 ----
 
-## 🛠️ Tech Stack & 📋 Prerequisites
+##  Tech Stack & 📋 Prerequisites
 Before installing SimCare, ensure your local development machine fulfills the following environments and dependencies:
-- 🪟 **Operating System**: Ubuntu 22.04 LTS
-- 🦾 **Robotics Frameworks**: ROS2 Humble Hawksbill or newer (Desktop install recommended)
-- 🎮 **Simulation Engine**: Webots (compatible with webots_ros2 Humble drivers)
-- 📍 **Navigation & Simulation Stack**: ROS 2 Navigation & Simulation Packages (Nav2, Cartographer, TurtleBot3, Webots)
-- 🧠 **AI/ML**: OpenAI Whisper (Base model), NLP Keyword Intent Parsing, PyTTSx3 (TTS Engine)
-- 👨‍💻 **Languages**: Python, C++, Bash
+-  **Operating System**: Ubuntu 22.04 LTS
+-  **Robotics Frameworks**: ROS2 Humble Hawksbill or newer (Desktop install recommended)
+-  **Simulation Engine**: Webots (compatible with webots_ros2 Humble drivers)
+-  **Navigation & Simulation Stack**: ROS 2 Navigation & Simulation Packages (Nav2, Cartographer, TurtleBot3, Webots)
+-  **AI/ML**: OpenAI Whisper (Base model), NLP Keyword Intent Parsing, PyTTSx3 (TTS Engine)
+-  **Languages**: Python, C++, Bash
 
 ----
 
@@ -89,19 +89,19 @@ SimCare/
 
 ----
 
-## 🚀 Installation & Setup
-### 🔊 System Audio Libraries
+##  Installation & Setup
+###  System Audio Libraries
 ```bash
 sudo apt-get install portaudio19-dev libasound2-dev python3-pyaudio
 ```
 
-### 🤖 Core ROS 2 Packages
+###  Core ROS 2 Packages
 Ensure your workspace has the base TurtleBot3 packages installed:
 ```bash
 sudo apt install ros-humble-turtlebot3 ros-humble-turtlebot3-bringup ros-humble-nav2-bringup ros-humble-cartographer ros-humble-turtlebot3-navigation2
 ```
 
-### 🏗️ Build the Workspace
+###  Build the Workspace
 1. Clone the repository into your ROS2 workspace source folder:
 ``` bash
 cd ~/ros2_ws/src
@@ -120,7 +120,7 @@ colcon build --symlink-install
 source install/setup.bash
 ```
 
-### 🖥️ How to Run
+###  How to Run
 1. Start the Webots TurtleBot3 simulation environment:
 ``` bash
 ros2 launch turtlebot3_webots_bringup full_sim_bringup.launch.py
@@ -148,7 +148,7 @@ ros2 topic pub /voice_commands std_msgs/String "data: 'move forward'"
 
 ----
 
-## 📊 Telemetry Logs   
+##  Telemetry Logs   
 The system automatically records persistent logs for tracking and diagnostics:
 - Device Actions: Checked and updated via device_log.txt
 - Emergency Alerts: Logged to emergency_log.txt
@@ -156,17 +156,15 @@ The system automatically records persistent logs for tracking and diagnostics:
 
 ----
 
-## 🔮 Future Improvements
+##  Future Improvements
 The current version of SimCare serves as a proof-of-concept for an intelligent voice-controlled assistive robot. Future enhancements may include:
-- 🧠 Integration of Large Language Models (LLMs) for more natural conversations and reasoning.
-- 👤 Speaker identification and personalized user profiles.
-- 📷 Vision-based object detection and person tracking using RGB-D cameras.
-- 🏥 Integration with IoT-enabled smart home and healthcare devices.
-- ❤️ Real-time health monitoring through wearable sensor integration.
-- 🤖 Deployment on a physical TurtleBot3 platform for real-world validation.
-- ☁️ Cloud-based monitoring dashboard for caregivers and emergency notifications.
-- 🌍 Multilingual voice interaction and improved speech recognition in noisy environments.
+-  Integration of Large Language Models (LLMs) for more natural conversations and reasoning.
+-  Speaker identification and personalized user profiles.
+-  Vision-based object detection and person tracking using RGB-D cameras.
+-  Integration with IoT-enabled smart home and healthcare devices.
+-  Real-time health monitoring through wearable sensor integration.
+-  Deployment on a physical TurtleBot3 platform for real-world validation.
+-  Cloud-based monitoring dashboard for caregivers and emergency notifications.
+-  Multilingual voice interaction and improved speech recognition in noisy environments.
 
-## Author
 
-**Salouni Das**\
